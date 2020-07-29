@@ -38,9 +38,9 @@ def tokenizer(csv):
 
     # filters out other bs
     a = ["fyp", "foryou", "foryoupage", "duet", "wa", "xyzbca", "reply",
-         "like", "get", "tiktok","tiktoktaughtme", "know", "vibezone", "fypシ",
-         "make", "video", "got", "u", "dc", "fy", "new", "let", "na", "2","go",
-         "see", "think", "really", "back", "said", "ha", "first",
+         "like", "get", "tiktok", "tiktoktaughtme", "know", "vibezone", "fypシ",
+         "make", "video", "got", "u", "dc", "fy", "new", "let", "na", "2",
+         "go", "see", "think", "really", "back", "said", "ha", "first",
          "foryourpage"]
     finalToken = [x for x in finalToken if x not in a]
 
@@ -89,7 +89,7 @@ def plot(word_list):
     other = 0
     total = 0
 
-    #finds thematic distribution
+    # finds thematic distribution
     for i in fdist.most_common(150):
         if i[0] in lgbt:
             lgbtqCount += i[1]

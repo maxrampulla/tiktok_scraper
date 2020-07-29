@@ -1,0 +1,4 @@
+numpy==1.19.1
+nltk==3.5
+matplotlib==3.3.0
+selenium==3.141.0
