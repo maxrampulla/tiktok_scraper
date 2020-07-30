@@ -1,5 +1,4 @@
-# python-hierarchy
-
+# TIKTOK Scraper
 [![Python: 3.8](https://img.shields.io/badge/Python-3.8-blue.svg)](#)
 [![license: MIT](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 
